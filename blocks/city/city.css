@@ -1,0 +1,114 @@
+.city{
+    background-color: #2A2C2F;
+    color: white;
+    font-family: Inter, 'Arial Narrow Bold', sans-serif;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    grid-template-rows: 1fr 2fr 100px;
+    margin-bottom: 20px;
+    grid-template-areas:
+    "header artist"
+    "image paragraph"
+    "link .";
+}
+@media screen and (max-width:1000px){
+    .citys{
+        width: 90%;
+    }
+    .city{
+        grid-template-rows: none;
+    }
+}
+@media screen and (max-width:840px){
+    .city{
+        grid-template-rows: none;
+    }
+}
+@media screen and (max-width:768px){
+    .city{
+        display: grid;
+        gap: 10px;
+    }
+    .citys{
+        width: 90%;
+    }
+    .city__buy-link{
+        width: 288px;
+    }
+    .city__title{
+        font-size: 42px;
+    }
+    .city__description{
+        font-size: 16px;
+    }
+    .city__artist{
+        font-size: 12px;
+    }
+    .city__artist-author {
+        font-size: 18px;
+    }
+    .city__img{
+        width: 340px;
+        height: 340px;
+    }
+}
+@media screen and (max-width:650px){
+  .city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .city__img{
+    width: 100%;
+  }
+  .city__artist-text{
+    padding-top: 0;
+    align-self: flex-start;
+  }
+  .city__title{
+    align-self: flex-start;
+  }
+}
+@media screen and (max-width:320px){
+
+    .city{
+        display: flex;
+        flex-direction: column;
+    }
+    .citys{
+        width: 100%;
+        padding-top: 0;
+    }
+    .city__description{
+        padding: 12px;
+    }
+    .city__artist-text{
+        padding-bottom: 15px;
+        padding-top: 0;
+        padding: 12px;
+    }
+    .city__title{
+        font-size: 32px;
+        line-height: 32px;
+        padding: 12px;
+        align-self: flex-start;
+    }
+    .city__artist{
+        margin: 0;
+        padding-bottom: 8px;
+    }
+    .city__buy-link{
+        margin-top: 0;
+        width: 288px;
+        height: 23px;
+        padding: 6px 4px;
+    }
+    .city__img{
+        width: 320px;
+        height: 320px;
+    }
+}

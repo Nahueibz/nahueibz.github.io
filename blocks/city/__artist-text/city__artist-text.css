@@ -1,0 +1,19 @@
+.city__artist-text {
+    grid-area: artist;
+    display: flex;
+    font-weight: normal;
+    margin: 0;
+    flex-direction: column;
+    padding-top: 60px;
+    font-family: inter;
+}
+.city__artist{
+    color: #AAAAAA;
+    }
+.city__artist-author{
+display: flex;
+align-items: center;
+font-size: 18px;
+font-weight: normal;
+margin: 0;
+ }

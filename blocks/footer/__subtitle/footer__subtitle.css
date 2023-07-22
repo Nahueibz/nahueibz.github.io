@@ -1,0 +1,10 @@
+.footer__subtitle{
+    font-size: 18px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+    color: white;
+    z-index: 1;
+    width: 20%;
+}

@@ -1,0 +1,46 @@
+@import url(../vendor/normalize.css);
+
+
+@import url(../blocks/author/author.css);
+@import url(../blocks/author/__text/__author__text.css);
+
+
+@import url(../blocks/city/__citys/__citys.css);
+@import url(../blocks/city/__artist-text/city__artist-text.css);
+@import url(../blocks/city/__description/city__description.css);
+@import url(../blocks/city/__img/city__img.css);
+@import url(../blocks/city/__link/city__buy-link.css);
+@import url(../blocks/city/__title/city__title.css);
+@import url(../blocks/city/city.css);
+
+@import url(../blocks/description/__author/description__author.css);
+@import url(../blocks/description/__paragraph/description__paragraph.css);
+@import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/description.css);
+
+@import url(../blocks/footer/__hover/footer__hover.css);
+@import url(../blocks/footer/__link/footer__link.css);
+@import url(../blocks/footer/__subtitle/footer__subtitle.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/footer.css);
+
+@import url(../blocks/images/image/__img.css);
+@import url(../blocks/images/images.css);
+
+@import url(../blocks/header/__image/header__image.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__subtitle/header__subtitle.css);
+@import url(../blocks/header/__title/header__title.css);
+@import url(../blocks/header/header.css);
+
+
+
+@import url(../vendor/fonts/inter.css); 
+:root{
+    --tertiary-color: #2A2C2F;
+}
+
+body{ 
+    background-color: var(--tertiary-color);
+    font-family: Inter;
+}

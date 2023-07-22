@@ -1,0 +1,8 @@
+.city__description{
+    font-size: 18px;
+    grid-area: paragraph;
+    margin: 0 auto;
+    grid-row: 2/-2;
+    font-style: normal;
+    
+}

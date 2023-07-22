@@ -1,0 +1,14 @@
+.city__buy-link{
+    grid-area: link;
+    background-color: #0278FE;
+    color: white;
+    width: 330px;
+    height: 28px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 20px 15px;
+}
+.city__buy-link:hover {
+    background-color: #0063D2;
+  }

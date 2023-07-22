@@ -1,0 +1,9 @@
+.city__title{
+    font-size: 72px;
+    line-height: 76px;
+    grid-area: header;
+    font-weight: bold;
+    margin: 0;
+    width: 60%;
+    font-family: Inter;
+     }
